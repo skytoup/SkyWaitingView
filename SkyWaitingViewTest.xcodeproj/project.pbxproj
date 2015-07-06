@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18BF7B611B42551F006111DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BF7B601B42551F006111DF /* main.m */; };
+		18BF7B641B42551F006111DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BF7B631B42551F006111DF /* AppDelegate.m */; };
+		18BF7B671B42551F006111DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BF7B661B42551F006111DF /* ViewController.m */; };
+		18BF7B6A1B42551F006111DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BF7B681B42551F006111DF /* Main.storyboard */; };
+		18BF7B6C1B42551F006111DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BF7B6B1B42551F006111DF /* Images.xcassets */; };
+		18BF7B6F1B42551F006111DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BF7B6D1B42551F006111DF /* LaunchScreen.xib */; };
+		18BF7B7B1B42551F006111DF /* SkyWaitingViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BF7B7A1B42551F006111DF /* SkyWaitingViewTestTests.m */; };
+		18BF7B8B1B4255A0006111DF /* SkyBaseWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BF7B861B4255A0006111DF /* SkyBaseWaitingView.m */; };
+		18BF7B8C1B4255A0006111DF /* SkyCircleWatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BF7B881B4255A0006111DF /* SkyCircleWatingView.m */; };
+		18BF7B8D1B4255A0006111DF /* SkyLabelWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BF7B8A1B4255A0006111DF /* SkyLabelWaitingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18BF7B751B42551F006111DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BF7B531B42551F006111DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BF7B5A1B42551F006111DF;
+			remoteInfo = SkyWaitingViewTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18BF7B5B1B42551F006111DF /* SkyWaitingViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyWaitingViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BF7B5F1B42551F006111DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BF7B601B42551F006111DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18BF7B621B42551F006111DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18BF7B631B42551F006111DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18BF7B651B42551F006111DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18BF7B661B42551F006111DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18BF7B691B42551F006111DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18BF7B6B1B42551F006111DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18BF7B6E1B42551F006111DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18BF7B741B42551F006111DF /* SkyWaitingViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyWaitingViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BF7B791B42551F006111DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BF7B7A1B42551F006111DF /* SkyWaitingViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkyWaitingViewTestTests.m; sourceTree = "<group>"; };
+		18BF7B851B4255A0006111DF /* SkyBaseWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyBaseWaitingView.h; sourceTree = "<group>"; };
+		18BF7B861B4255A0006111DF /* SkyBaseWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyBaseWaitingView.m; sourceTree = "<group>"; };
+		18BF7B871B4255A0006111DF /* SkyCircleWatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyCircleWatingView.h; sourceTree = "<group>"; };
+		18BF7B881B4255A0006111DF /* SkyCircleWatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyCircleWatingView.m; sourceTree = "<group>"; };
+		18BF7B891B4255A0006111DF /* SkyLabelWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyLabelWaitingView.h; sourceTree = "<group>"; };
+		18BF7B8A1B4255A0006111DF /* SkyLabelWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkyLabelWaitingView.m; sourceTree = "<group>"; };
+		18BF7B8E1B4255BB006111DF /* SkyWaitingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkyWaitingView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BF7B581B42551F006111DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BF7B711B42551F006111DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BF7B521B42551F006111DF = {
+			isa = PBXGroup;
+			children = (
+				18BF7B5D1B42551F006111DF /* SkyWaitingViewTest */,
+				18BF7B771B42551F006111DF /* SkyWaitingViewTestTests */,
+				18BF7B5C1B42551F006111DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18BF7B5C1B42551F006111DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BF7B5B1B42551F006111DF /* SkyWaitingViewTest.app */,
+				18BF7B741B42551F006111DF /* SkyWaitingViewTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18BF7B5D1B42551F006111DF /* SkyWaitingViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				18BF7B841B4255A0006111DF /* SkyWaitingView */,
+				18BF7B621B42551F006111DF /* AppDelegate.h */,
+				18BF7B631B42551F006111DF /* AppDelegate.m */,
+				18BF7B651B42551F006111DF /* ViewController.h */,
+				18BF7B661B42551F006111DF /* ViewController.m */,
+				18BF7B681B42551F006111DF /* Main.storyboard */,
+				18BF7B6B1B42551F006111DF /* Images.xcassets */,
+				18BF7B6D1B42551F006111DF /* LaunchScreen.xib */,
+				18BF7B5E1B42551F006111DF /* Supporting Files */,
+			);
+			path = SkyWaitingViewTest;
+			sourceTree = "<group>";
+		};
+		18BF7B5E1B42551F006111DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18BF7B5F1B42551F006111DF /* Info.plist */,
+				18BF7B601B42551F006111DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18BF7B771B42551F006111DF /* SkyWaitingViewTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				18BF7B7A1B42551F006111DF /* SkyWaitingViewTestTests.m */,
+				18BF7B781B42551F006111DF /* Supporting Files */,
+			);
+			path = SkyWaitingViewTestTests;
+			sourceTree = "<group>";
+		};
+		18BF7B781B42551F006111DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18BF7B791B42551F006111DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18BF7B841B4255A0006111DF /* SkyWaitingView */ = {
+			isa = PBXGroup;
+			children = (
+				18BF7B8E1B4255BB006111DF /* SkyWaitingView.h */,
+				18BF7B851B4255A0006111DF /* SkyBaseWaitingView.h */,
+				18BF7B861B4255A0006111DF /* SkyBaseWaitingView.m */,
+				18BF7B871B4255A0006111DF /* SkyCircleWatingView.h */,
+				18BF7B881B4255A0006111DF /* SkyCircleWatingView.m */,
+				18BF7B891B4255A0006111DF /* SkyLabelWaitingView.h */,
+				18BF7B8A1B4255A0006111DF /* SkyLabelWaitingView.m */,
+			);
+			path = SkyWaitingView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BF7B5A1B42551F006111DF /* SkyWaitingViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BF7B7E1B42551F006111DF /* Build configuration list for PBXNativeTarget "SkyWaitingViewTest" */;
+			buildPhases = (
+				18BF7B571B42551F006111DF /* Sources */,
+				18BF7B581B42551F006111DF /* Frameworks */,
+				18BF7B591B42551F006111DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyWaitingViewTest;
+			productName = SkyWaitingViewTest;
+			productReference = 18BF7B5B1B42551F006111DF /* SkyWaitingViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18BF7B731B42551F006111DF /* SkyWaitingViewTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BF7B811B42551F006111DF /* Build configuration list for PBXNativeTarget "SkyWaitingViewTestTests" */;
+			buildPhases = (
+				18BF7B701B42551F006111DF /* Sources */,
+				18BF7B711B42551F006111DF /* Frameworks */,
+				18BF7B721B42551F006111DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BF7B761B42551F006111DF /* PBXTargetDependency */,
+			);
+			name = SkyWaitingViewTestTests;
+			productName = SkyWaitingViewTestTests;
+			productReference = 18BF7B741B42551F006111DF /* SkyWaitingViewTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BF7B531B42551F006111DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = skytoup;
+				TargetAttributes = {
+					18BF7B5A1B42551F006111DF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					18BF7B731B42551F006111DF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 18BF7B5A1B42551F006111DF;
+					};
+				};
+			};
+			buildConfigurationList = 18BF7B561B42551F006111DF /* Build configuration list for PBXProject "SkyWaitingViewTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18BF7B521B42551F006111DF;
+			productRefGroup = 18BF7B5C1B42551F006111DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BF7B5A1B42551F006111DF /* SkyWaitingViewTest */,
+				18BF7B731B42551F006111DF /* SkyWaitingViewTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BF7B591B42551F006111DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BF7B6A1B42551F006111DF /* Main.storyboard in Resources */,
+				18BF7B6F1B42551F006111DF /* LaunchScreen.xib in Resources */,
+				18BF7B6C1B42551F006111DF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BF7B721B42551F006111DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BF7B571B42551F006111DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BF7B8C1B4255A0006111DF /* SkyCircleWatingView.m in Sources */,
+				18BF7B671B42551F006111DF /* ViewController.m in Sources */,
+				18BF7B641B42551F006111DF /* AppDelegate.m in Sources */,
+				18BF7B611B42551F006111DF /* main.m in Sources */,
+				18BF7B8B1B4255A0006111DF /* SkyBaseWaitingView.m in Sources */,
+				18BF7B8D1B4255A0006111DF /* SkyLabelWaitingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BF7B701B42551F006111DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BF7B7B1B42551F006111DF /* SkyWaitingViewTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18BF7B761B42551F006111DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BF7B5A1B42551F006111DF /* SkyWaitingViewTest */;
+			targetProxy = 18BF7B751B42551F006111DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18BF7B681B42551F006111DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BF7B691B42551F006111DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18BF7B6D1B42551F006111DF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BF7B6E1B42551F006111DF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18BF7B7C1B42551F006111DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18BF7B7D1B42551F006111DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18BF7B7F1B42551F006111DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkyWaitingViewTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18BF7B801B42551F006111DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkyWaitingViewTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18BF7B821B42551F006111DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SkyWaitingViewTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyWaitingViewTest.app/SkyWaitingViewTest";
+			};
+			name = Debug;
+		};
+		18BF7B831B42551F006111DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SkyWaitingViewTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkyWaitingViewTest.app/SkyWaitingViewTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BF7B561B42551F006111DF /* Build configuration list for PBXProject "SkyWaitingViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BF7B7C1B42551F006111DF /* Debug */,
+				18BF7B7D1B42551F006111DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BF7B7E1B42551F006111DF /* Build configuration list for PBXNativeTarget "SkyWaitingViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BF7B7F1B42551F006111DF /* Debug */,
+				18BF7B801B42551F006111DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18BF7B811B42551F006111DF /* Build configuration list for PBXNativeTarget "SkyWaitingViewTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BF7B821B42551F006111DF /* Debug */,
+				18BF7B831B42551F006111DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18BF7B531B42551F006111DF /* Project object */;
+}
