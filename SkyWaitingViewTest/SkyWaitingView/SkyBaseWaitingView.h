@@ -19,4 +19,15 @@
 @property (assign, nonatomic) UIColor *ringColor; // 圆环颜色
 
 - (void)updateSubLayerFrame;
+/**
+ *  开始动画
+ */
+- (void)start;
+
+/**
+ *  停止动画
+ *
+ *  @param hidden 是否隐藏圆环
+ */
+- (void)stopWithHidRing:(BOOL)hidden;
 @end

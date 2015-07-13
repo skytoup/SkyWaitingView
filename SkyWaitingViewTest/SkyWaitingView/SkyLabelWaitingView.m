@@ -62,13 +62,14 @@
     _label.text = _block(self);
 }
 
-
 - (void)startWithLabelTextBlock:(SkyLabelTextBlock)block {
-    [self start];
-    self.block = block;
-    _dl = [CADisplayLink displayLinkWithTarget:self selector:@selector(skyChangeLabelText:)];
-    _dl.frameInterval = 1.f/self.rate*10;
-    [_dl addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];
+    if(!self.isStartAnimation) {
+        [self start];
+        self.block = block;
+        _dl = [CADisplayLink displayLinkWithTarget:self selector:@selector(skyChangeLabelText:)];
+        _dl.frameInterval = 1.f/self.rate*10;
+        [_dl addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];
+    }
 }
 
 - (void)stopWithHidRing:(BOOL)hidden {

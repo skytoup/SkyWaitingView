@@ -99,4 +99,7 @@
     self.frame = (CGRect){ self.frame.origin, {s,s} };
 }
 
+- (void)start{}
+- (void)stopWithHidRing:(BOOL)hidden{}
+
 @end

@@ -16,15 +16,4 @@
 @property (assign, nonatomic) BOOL hideRing; // 隐藏圆环
 @property (assign, nonatomic, readonly) BOOL isStartAnimation; // 是否开始了动画
 
-/**
- *  开始动画
- */
-- (void)start;
-
-/**
- *  停止动画
- *
- *  @param hidden 是否隐藏圆环
- */
-- (void)stopWithHidRing:(BOOL)hidden;
 @end
