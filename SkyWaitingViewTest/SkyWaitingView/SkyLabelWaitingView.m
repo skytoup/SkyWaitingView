@@ -15,15 +15,6 @@
 
 @implementation SkyLabelWaitingView
 
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
-        [self skyLabelInitSelf];
-    }
-    return self;
-}
-
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];

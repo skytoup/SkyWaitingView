@@ -14,15 +14,6 @@
 
 @synthesize isStartAnimation = _isStartAnimation;
 
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
-        [self skyCircelInitSelf];
-    }
-    return self;
-}
-
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
